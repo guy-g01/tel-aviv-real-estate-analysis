@@ -1,0 +1,11 @@
+numpy
+pandas
+openpyxl
+matplotlib
+seaborn
+geopandas
+shapely
+libpysal
+esda
+scikit-learn
+jupyter
