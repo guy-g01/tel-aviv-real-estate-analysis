@@ -1,0 +1,19 @@
+# Raw and generated data
+*.xlsx
+*.xls
+project_outputs/
+data/*.csv
+data/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
