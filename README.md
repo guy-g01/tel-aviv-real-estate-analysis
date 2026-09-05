@@ -2,6 +2,8 @@
 
 A data-science portfolio project analyzing **37,000+ real-estate transactions in Tel Aviv (2012–2017)** to explore how property characteristics and geographic location are associated with price per square meter.
 
+[**View the full analysis notebook**](tel_aviv_real_estate_analysis.ipynb)
+
 ## Project overview
 
 The project combines data cleaning, exploratory analysis, geospatial processing, spatial statistics, and machine learning.
@@ -72,10 +74,11 @@ These relationships are statistical associations, not causal effects.
 ```text
 tel-aviv-real-estate-analysis/
 ├── README.md
-├── notebooks/
-│   └── tel_aviv_real_estate_analysis.ipynb
+├── tel_aviv_real_estate_analysis.ipynb
 ├── figures/
 │   └── figure_*.png
+├── data/
+│   └── README.md
 ├── requirements.txt
 └── .gitignore
 ```
@@ -85,7 +88,11 @@ tel-aviv-real-estate-analysis/
 1. Clone the repository.
 2. Place `tel_aviv_real_estate.xlsx` in the project root.
 3. Install dependencies with `pip install -r requirements.txt`.
-4. Open and run `notebooks/tel_aviv_real_estate_analysis.ipynb`.
+4. Open and run `tel_aviv_real_estate_analysis.ipynb`.
+
+## Limitations and future work
+
+The model does not include several potentially important property and neighborhood characteristics, such as neighborhood identity, elevator availability, parking, view, physical condition, proximity to the sea, and building quality. Future work could incorporate these variables, test alternative spatial definitions, and compare nonlinear models with the current linear baseline.
 
 ## Notes
 
